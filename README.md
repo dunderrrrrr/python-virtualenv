@@ -28,6 +28,7 @@ Add to ~/.config/fish/config.fish
 ```
 eval (python -m virtualfish compat_aliases)
 ```
+https://virtualfish.readthedocs.io/en/latest/plugins.html#id1  
 Reload your shell.  
 ## Create Python3 environment
 ```
