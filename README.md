@@ -11,7 +11,7 @@ https://virtualenvwrapper.readthedocs.io/en/latest/
 ```
 sudo apt update
 sudo apt dist-upgrade
-sudo apt install python-pip
+sudo apt install python3-pip
 sudo apt install virtualenvwrapper
 pip install virtualenv
 ```
@@ -19,6 +19,14 @@ Add to ~/.bashrc and all your environments will be stored in ~/virtualenvs.
 ```
 export WORKON_HOME=$HOME/virtualenvs
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+```
+If using fish shell
+```
+pip install virtualfish
+```
+Add to ~/.config/fish/config.fish
+```
+eval (python -m virtualfish compat_aliases)
 ```
 Reload your shell.  
 ## Create Python3 environment
