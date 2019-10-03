@@ -13,6 +13,7 @@ sudo apt update
 sudo apt dist-upgrade
 sudo apt install python3-pip
 sudo apt install virtualenvwrapper
+sudo apt install python-pip
 pip install virtualenv
 ```
 Add to ~/.bashrc and all your environments will be stored in ~/virtualenvs.
